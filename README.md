@@ -1,18 +1,243 @@
 # portfolio_
-I’m a Data Analyst / AI Enthusiast / Developer passionate about exploring the intersection of data, technology, and problem-solving. My portfolio highlights end-to-end projects focused on data analysis, machine learning, and computer vision, showcasing my ability to transform raw data into actionable insights and real-world applications.
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><span>P</span>ortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-🚀 About Me
-🎓 Passionate about Data Science, AI, and Analytics
-🧠 Skilled in Python, SQL, Power BI, Excel, and Machine Learning
-📊 Love creating interactive dashboards and predictive models
-🧩 Strong interest in Computer Vision and Deep Learning
-🌱 Currently learning Advanced ML and Deployment techniques
-💬 Ask me about data cleaning, visualization, and model building
+    <section class="hero" id="home">
+        <div class="hero-left">
+            <img src="revan5.jpg" alt="Profile" class="profile-img">
+        </div>
+        <div class="hero-right">
+            <p class="intro">Hi I'm <span class="typing-container"><span id="typing-text"></span><span class="cursor"></span></span></p>
+            <h1 class="hero-name">Prathab M</h1>
+            <p class="hero-description">
+                Highly motivated and detail-oriented Data Analyst with strong skills in Python, SQL, Power BI, and Excel, seeking an entry-level position to apply analytical and visualization expertise to solve real-world business problems. Passionate
+                about transforming data into actionable insights and contributing
+                to data-driven decision-making.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://drive.google.com/file/d/1u5c9XzvO0juh3i1yjP1wGvptk8aUk8nX/view?usp=drive_link" class="btn">Download CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/prathab-m-73688a298/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/revan098" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/revan.sh__?igsh=MWVzb3d2eHFuazQwYw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    
+            </div>
+        </div>
+    </section>
 
-🧰 Tech Stack
-Category	Tools / Skills
-Programming	Python, SQL, R
-Libraries	Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, OpenCV
-Visualization	Power BI, Tableau, Excel
-Databases	MySQL, PostgreSQL
-Others	Git, Jupyter, VS Code, Streamlit
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>My name is Prathap, and I’m from Tamil Nadu.I have recently completed my B.Tech in Artificial Intelligence & Data Science from Kangayam Group of Institution in Thirupur.
+                        During my academic journey, I actively participated in various technical activities and developed a keen interest in programming and Analytics.
+                        I’m familiar with SQL, PYTHON, EXCEL, MACHINE LEARNING, TABLEAU, HTML, CSS and FIGMA and also have a basic understanding of ServiceNow. I enjoy learning new technologies and enhancing my technical skills. 
+                        To strengthen my knowledge further, I’ve completed certifications in Data visualization, AR &VR, and attended a workshop in data visualization using R. 
+                        I consider myself a quick learner, a team player, and someone who is always ready to take on new challenges.
+                        I’m now looking for an opportunity to begin my career in the IT industry, where I can apply my knowledge, grow professionally, and contribute to the organization.
+                    </p>
+
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MicroSoft Excel</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Power Bi</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Statistics</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">Html</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="revan3.jpg" alt="About Image" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Project</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="data-analytics1.webp" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <h3>Employee Productivity & Performance Analysis</h3>
+                            <p>Python lib: Pandas | Seaborn | Matplotlib</p>
+                            <a href="https://github.com/revan098/Employee-productivity-performance-Analysis" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="HR-Analytics.jpg" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <h3>HR Analytics Dashboard</h3>
+                            <p>Power Bi | Excel | Dax Function</p>
+                            <a href="https://www.linkedin.com/posts/prathab-m-73688a298_hranalytics-peopleanalytics-dataanalytics-activity-7378448278134140928-CRuP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgIb5oBc40qKieuVMqSyRHdX-WUcXeL_K4" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="6N6FT5SYSRAPXMWNXSDAQD7YJM.avif" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <h3>Pizza Hut sales Dashboard</h3>
+                            <p>Power Bi | Excel | SQL | Dax Function</p>
+                            <a href="https://www.linkedin.com/posts/prathab-m-73688a298_data-analysis-dashboard-activity-7376204027274907649-f5u_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgIb5oBc40qKieuVMqSyRHdX-WUcXeL_K4" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="Employee-Productivity.webp" alt="Project 4">
+                        <div class="portfolio-overlay">
+                            <h3>Employee Productivity & performance DashBoard</h3>
+                            <p>Power Bi | Excel | SQL | Dax Function</p>
+                            <a href="https://github.com/revan098/Employee-productivity-performance-Analysis-Dashboard" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="one_piece.jpg" alt="Project 5">
+                        <div class="portfolio-overlay">
+                            <h3>One Piece Anime Excel DashBoard</h3>
+                            <p>Excel | EDA</p>
+                            <a href="https://github.com/revan098/Excel-Dashboard" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="istockphoto-989561914-612x612.jpg" alt="Project 6">
+                        <div class="portfolio-overlay">
+                            <h3>Wild Animal Detection and Warning System using YOLO</h3>
+                            <p>YOLO | Deep Learning | Python</p>
+                            <a href="https://drive.google.com/drive/folders/1MXdiO7fdYdjjrVODbDJz9eNPvD3CZP9X?usp=drive_link" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="resume" class="section">
+    <div class="container">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+            <div class="resume-left">
+                <h3>Experience</h3>
+                <div class="experience-item">
+                    <h4>Data Analyst (Intern)</h4>
+                    <p class="company">Besant Technologies</p>
+                    <p class="date">2025 - Present</p>
+                    <p>•	Extracted, cleaned, and analyzed datasets using Excel, SQL, and Python (Pandas, NumPy).</p>
+                    <p>•	Developed interactive dashboards in Power BI and Excel to visualize business KPIs and project insights.</p>
+                    <p>•	Automated Excel reports with pivot tables, charts, and slicers to support data-driven decisions.</p>
+                    <p>•	Collaborated with the analytics team to present insights that improved reporting efficiency.</p>
+                    <p>•	Currently upskilling in Machine Learning and Deep Learning to enhance analytical capability.</p>
+                </div>
+                <h3>Certifications</h3>
+                <ul class="certifications">
+                    <li>Data Analytics - Accenture</li>
+                    <li>Tensorflow & Keras - GreatLearning</li>
+                    <li>Data visualization using R - Workshop</li>
+                    <li>Quantum Mechanics - Hand on Training</li>
+                    <li>Frontend Developer - Gateway Software Solution</li>
+                </ul>
+            </div>
+            <div class="resume-right">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>B.Tech - Artificial Intelligence & Data Science</h4>
+                    <p class="College">Kangayam Group of Institution</p>
+                    <p class="date">2021 - 2025</p>
+                    <p>CGPA: 7.76</p>
+                    <p>Artificial Intelligence, Machine Learning, Deep Learning, probability & statistics</p>
+                </div>
+                <div class="education-item">
+                    <h4>High School</h4>
+                    <p class="university">[Sri Vidhya Mandhir Metric Hr sec School]</p>
+                    <p class="date">2020 - 2021</p>
+                    <p>Score: 84%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Prathapb.techai@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 80728 06339</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Dharmapuri, TamilNadu </p>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/prathab-m-73688a298/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/revan098" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/revan.sh__?igsh=MWVzb3d2eHFuazQwYw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href=" https://wa.me/qr/HKWKN7UPWOV6C1 " aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
